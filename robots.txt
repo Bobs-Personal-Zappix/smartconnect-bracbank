@@ -1,0 +1,23 @@
+# This is an internal prototype demo site — not a live service.
+# All crawling and indexing is explicitly disallowed.
+
+User-agent: *
+Disallow: /
+
+# Google
+User-agent: Googlebot
+Disallow: /
+
+# Bing
+User-agent: Bingbot
+Disallow: /
+
+# Common security scanners
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
